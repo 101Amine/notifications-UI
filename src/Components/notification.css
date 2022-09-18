@@ -1,0 +1,42 @@
+section {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    font-family: var(--ff-primary);
+}
+
+section img {
+    height: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+section .comment_container {
+    display: flex;
+    flex-direction: column;
+}
+
+section .comment_container .comment {
+    font-size: 0.85rem;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: var(--clr-dgblue);
+}
+
+
+section .comment_container .comment span:first-child {
+    font-weight: var(--fw-800);
+    color:var(--clr-vdblue);
+}
+
+section .comment_container .comment span:last-child {
+    font-weight: var(--fw-800);
+    
+}
+
+
+.comment_container .date {
+    font-size: 0.8rem;
+    opacity: 50%;
+}
