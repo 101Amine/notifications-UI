@@ -1,0 +1,44 @@
+.App {
+    font-family: var(--ff-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-vlgblue);
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    padding-inline: 20px;
+}
+
+
+h1 {
+    font-size: 1.3rem;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+p {
+    font-size: 0.8rem;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin-left: auto;
+    opacity: 60%;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+article.comment_content {
+    font-size: 0.9rem;
+}

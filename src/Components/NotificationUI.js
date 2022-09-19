@@ -1,7 +1,7 @@
 import React from 'react'
 import './notification.css'
 
-export const NotificationUI = () => {
+export const NotificationUI = (props) => {
   return (
     <section>
         <picture>
@@ -9,11 +9,7 @@ export const NotificationUI = () => {
         </picture>        
 
         <div className='comment_container'>
-            <p className='comment'> <span>Mark Webber</span> reacted to your recent post <span>My first tournament today</span>
-            </p>
-            <p className='date'>
-                 1m ago 
-            </p>
+            {props.children}
         </div>
 
     </section>
