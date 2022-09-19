@@ -3,22 +3,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-vlgblue);
+    background: var(--clr-gbleu1);
     height: 100vh;
     flex-direction: column;
 }
 
 
-header {
-    display: flex;
+main {
     width: 45%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: white;
-    padding-inline: 20px;
+    background: white;
+    border-radius: 10px;
 }
 
+.header {
+    display: flex;
+    padding: 10px;
+    padding-inline: 20px;
+    padding-bottom: 1.5rem;
+}
+
+
+div.header h1 span:first-child {
+    font-size: .8rem;
+    padding-inline: 6px;
+    background-color: var(--clr-primary-500);
+    color: var(--clr-white);
+    padding-block: 5px;
+    margin-left: 3px;
+    border-radius: 6px;
+}
+
+div.header p {
+    margin-block: auto;
+}
 
 h1 {
     font-size: 1.3rem;

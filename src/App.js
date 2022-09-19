@@ -8,11 +8,11 @@ function App() {
 
 
       <main>
-        <section className='header'>
+        <div className='header'>
           <h1> Notifications <span> 3 </span></h1>
 
           <p> Mark all as read</p>
-        </section>
+        </div>
         <NotificationUI> 
             <h2> Mark Webber </h2>
             <article className='comment_content'> 
