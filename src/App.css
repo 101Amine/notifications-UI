@@ -9,17 +9,34 @@
 }
 
 
+.flex {
+    display: flex;
+}
+
+.gap-10 {
+    gap:10rem;
+}
+
 main {
+    display: grid;
+    gap: .3rem;
     width: 45%;
     background: white;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 .header {
     display: flex;
-    padding: 10px;
-    padding-inline: 20px;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-inline: 32px;
     padding-bottom: 1.5rem;
+}
+
+.chess {
+    color: var(--clr-primary-500);
+    opacity: 100%;
 }
 
 
@@ -59,3 +76,25 @@ h2 {
 article.comment_content {
     font-size: 0.9rem;
 }
+
+
+
+article span:first-child {
+    opacity: 60%;
+}
+
+article span:nth-child(2) {
+    opacity: 60%;
+    font-weight: bold;
+}
+
+.red_dot {
+    height: 6px;
+    width: 6px;
+    margin-block: auto;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-left: 3px;
+    display: inline-block;
+}
+
